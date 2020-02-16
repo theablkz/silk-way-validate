@@ -1,0 +1,14 @@
+{
+  "name": "silk-way-validate",
+  "version": "0.0.32",
+  "description": "validation-module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "theablkz@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  }
+}
