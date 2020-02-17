@@ -4,12 +4,27 @@ import Cyrillic from "./modules/validators/cyrillic";
 import Iin from "./modules/validators/iin";
 import Phone from "./modules/validators/phone";
 
+import { IValidate } from './types'
+
+
 class Validate {
-    notNull: NotNull = new NotNull()
-    booleanTrue: BooleanTrue = new BooleanTrue()
-    cyrillic: Cyrillic = new Cyrillic()
-    iin: Iin = new Iin()
-    phone: Phone = new Phone()
+    private validations: {[index: string]:any} = {
+        notNull: new NotNull(),
+        booleanTrue:  new BooleanTrue(),
+        cyrillic:  new Cyrillic(),
+        iin: new Iin(),
+        phone: new Phone()
+    }
+    validate(validate: string, value: string | number | boolean, errorText: string ): IValidate | undefined{
+        let validationsKeys = Object.keys(this.validations)
+        if(validationsKeys.some(item => item === validate)){
+           return {
+               error: this.validations[validate].validate(value, errorText),
+               errorText: this.validations[validate].messageText
+           }
+        }
+        return undefined
+    }
 }
 
 const Validation = new Validate()

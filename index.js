@@ -10,11 +10,23 @@ const iin_1 = __importDefault(require("./modules/validators/iin"));
 const phone_1 = __importDefault(require("./modules/validators/phone"));
 class Validate {
     constructor() {
-        this.notNull = new notNull_1.default();
-        this.booleanTrue = new booleanTrue_1.default();
-        this.cyrillic = new cyrillic_1.default();
-        this.iin = new iin_1.default();
-        this.phone = new phone_1.default();
+        this.validations = {
+            notNull: new notNull_1.default(),
+            booleanTrue: new booleanTrue_1.default(),
+            cyrillic: new cyrillic_1.default(),
+            iin: new iin_1.default(),
+            phone: new phone_1.default()
+        };
+    }
+    validate(validate, value, errorText) {
+        let validationsKeys = Object.keys(this.validations);
+        if (validationsKeys.some(item => item === validate)) {
+            return {
+                error: this.validations[validate].validate(value, errorText),
+                errorText: this.validations[validate].messageText
+            };
+        }
+        return undefined;
     }
 }
 const Validation = new Validate();

@@ -1,7 +1,6 @@
 import Regular from "../regular";
 
 const messageErrorNull = "messageErrorNull";
-
 const messageErrorNotValid = "messageErrorNotValid";
 
 export default class Cyrillic {

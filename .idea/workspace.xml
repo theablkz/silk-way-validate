@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829a661a-5b08-489c-b7d1-68536ecef14d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/sum.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/validators/booleanTrue.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/validators/booleanTrue.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/validators/cyrillic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/validators/cyrillic.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/validators/phone.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/validators/phone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/validators/phone.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/validators/phone.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581915981944</updated>
-      <workItem from="1581915985869" duration="6071000" />
+      <workItem from="1581915985869" duration="12265000" />
     </task>
     <servers />
   </component>
@@ -71,8 +89,17 @@
         <option value="$PROJECT_DIR$/modules/validators/booleanTrue.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/modules/regular.js" />
+        <option value="$PROJECT_DIR$/testtest.js" />
         <option value="$PROJECT_DIR$/modules/validators/phone.js" />
+        <option value="$PROJECT_DIR$/test/sum.test.js" />
+        <option value="$PROJECT_DIR$/types/index.js" />
       </list>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1033" y="357" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581924912486">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="1033" y="357" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1581924912486" />
   </component>
 </project>

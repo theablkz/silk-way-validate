@@ -4,8 +4,8 @@ const messageNotValidPhone = "messageNotValidPhone";
 export default class Phone {
   messageText: string = messageNotNullPhone;
   validate(number: string, errText?: string) {
+    this.messageText = errText || messageNotNullPhone;
     if (number.length == 0) {
-      this.messageText = errText || messageNotNullPhone;
       return false;
     }
     let numberMatch: string[] = number.match(/[0-9]/g) || []

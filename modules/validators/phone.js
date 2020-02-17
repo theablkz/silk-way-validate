@@ -7,8 +7,8 @@ class Phone {
         this.messageText = messageNotNullPhone;
     }
     validate(number, errText) {
+        this.messageText = errText || messageNotNullPhone;
         if (number.length == 0) {
-            this.messageText = errText || messageNotNullPhone;
             return false;
         }
         let numberMatch = number.match(/[0-9]/g) || [];
