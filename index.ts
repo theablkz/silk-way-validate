@@ -1,13 +1,16 @@
-import NotNull from './notNull'
+import NotNull from './modules/validators/notNull'
+import BooleanTrue from "./modules/validators/booleanTrue";
+import Cyrillic from "./modules/validators/cyrillic";
+import Iin from "./modules/validators/iin";
+import Phone from "./modules/validators/phone";
 
 class Validate {
-    NotNull: NotNull = new NotNull()
-    
-
+    notNull: NotNull = new NotNull()
+    booleanTrue: BooleanTrue = new BooleanTrue()
+    cyrillic: Cyrillic = new Cyrillic()
+    iin: Iin = new Iin()
+    phone: Phone = new Phone()
 }
-
-
-// Validate.prototype.NotNull = new NotNull()
 
 const Validation = new Validate()
 export default Validation
