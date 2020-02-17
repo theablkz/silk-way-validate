@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829a661a-5b08-489c-b7d1-68536ecef14d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/regular.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/validators/booleanTrue.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/validators/cyrillic.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/validators/iin.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/validators/notNull.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/validators/phone.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notNull.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notNull.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581915981944</updated>
-      <workItem from="1581915985869" duration="5716000" />
+      <workItem from="1581915985869" duration="5935000" />
     </task>
     <servers />
   </component>
