@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829a661a-5b08-489c-b7d1-68536ecef14d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/boolean.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/cyrillic.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/iin.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/notNull.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/phone.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/validator.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/validator.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/validator.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581915981944</updated>
       <workItem from="1581915985869" duration="15024000" />
-      <workItem from="1582011383305" duration="6745000" />
+      <workItem from="1582011383305" duration="7651000" />
     </task>
     <servers />
   </component>
@@ -104,6 +96,11 @@
         <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/regular 2.js" />
         <option value="$PROJECT_DIR$/test/iin.test.js" />
         <option value="$PROJECT_DIR$/test/phone.test.js" />
+        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/validators/notNull 2.js" />
+        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/validators/cyrillic 2.js" />
+        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/validators/booleanTrue 2.js" />
+        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/validators/phone 2.js" />
+        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/validators/iin 2.js" />
       </list>
     </option>
   </component>

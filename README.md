@@ -54,7 +54,38 @@
       }
     ]
     
-
+###example with require('silk-way-validate')
+    const Validation = require("silk-way-validate")
+    let userData = [
+        { id: "name", value: "Валодя", validation: "cyrillic" },
+        { id: "phone", value: "+7 (777) 123 - 11 - 00", validation: "phone" },
+        { id: "iin", value: "111111000222", validation: "iin" }
+    ]
+    userData.map(item => {
+        item.valid = Validation.default.validate(item.validation, item.value)
+    })
+    
+    [
+      {
+        id: 'name',
+        value: 'Валодя',
+        validation: 'cyrillic',
+        valid: { isValid: true, errorText: 'messageErrorNull' }
+      },
+      {
+        id: 'phone',
+        value: '+7 (777) 123 - 11 - 00',
+        validation: 'phone',
+        valid: { isValid: true, errorText: 'messageNotNullPhone' }
+      },
+      {
+        id: 'iin',
+        value: '111111000222',
+        validation: 'iin',
+        valid: { isValid: false, errorText: 'messageErrorIin' }
+      }
+    ]
+    
 
 ##future plans
 
