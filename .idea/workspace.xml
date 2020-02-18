@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829a661a-5b08-489c-b7d1-68536ecef14d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/boolean.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/cyrillic.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/iin.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/notNull.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/phone.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/validator.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/validator.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/validator.test.ts" afterDir="false" />
@@ -72,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581915981944</updated>
       <workItem from="1581915985869" duration="15024000" />
-      <workItem from="1582011383305" duration="3319000" />
+      <workItem from="1582011383305" duration="6745000" />
     </task>
     <servers />
   </component>
@@ -89,13 +92,25 @@
         <option value="$PROJECT_DIR$/modules/regular.js" />
         <option value="$PROJECT_DIR$/modules/validators/phone.js" />
         <option value="$PROJECT_DIR$/types/index.js" />
+        <option value="$PROJECT_DIR$/test/booleanTrue.test.js" />
+        <option value="$PROJECT_DIR$/test/cyrillic.js" />
+        <option value="$PROJECT_DIR$/test/cyrillic.test.js" />
+        <option value="$PROJECT_DIR$/test/booleanTrue.test.js" />
+        <option value="$PROJECT_DIR$/test/notNull.test.js" />
+        <option value="$PROJECT_DIR$/test/boolean.test.js" />
+        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/index 2.js" />
+        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/types/index 2.js" />
+        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/test/validator.test 2.js" />
+        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/regular 2.js" />
+        <option value="$PROJECT_DIR$/test/iin.test.js" />
+        <option value="$PROJECT_DIR$/test/phone.test.js" />
       </list>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1033" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581933338990">
+    <state x="1033" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582018537263">
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
-    <state x="1033" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1581933338990" />
+    <state x="1033" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1582018537263" />
   </component>
 </project>

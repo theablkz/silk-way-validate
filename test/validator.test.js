@@ -24,7 +24,6 @@ let testForm = [
 ];
 test("test validation module", () => {
     testForm.forEach(item => {
-        console.log('testing', item);
         expect(index_1.default.validate(item.validation, item.value, item.errorText)).toEqual(item.callback);
     });
 });

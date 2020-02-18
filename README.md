@@ -30,7 +30,7 @@
         { id: "iin", value: "111111000222", validation: "iin" }
     ]
     userData.map(item => {
-        item.valid = Validation.validate(item.validation, item.name)
+        item.valid = Validation.validate(item.validation, item.value)
     })
     
     [

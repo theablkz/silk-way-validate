@@ -25,7 +25,6 @@ let testForm: Array<IForm> = [
 
 test("test validation module", () => {
     testForm.forEach(item => {
-        console.log('testing', item)
         expect(Validation.validate(item.validation, item.value, item.errorText)).toEqual(item.callback)
     })
 })
