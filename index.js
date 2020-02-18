@@ -22,7 +22,7 @@ class Validate {
         let validationsKeys = Object.keys(this.validations);
         if (validationsKeys.some(item => item === validate)) {
             return {
-                error: this.validations[validate].validate(value, errorText),
+                isValid: this.validations[validate].validate(value, errorText),
                 errorText: this.validations[validate].messageText
             };
         }

@@ -5,6 +5,6 @@ export interface IForm {
     callback: IValidate | undefined
 }
 export interface IValidate {
-    error: boolean,
+    isValid: boolean,
     errorText: string
 }

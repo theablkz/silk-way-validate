@@ -1,6 +1,6 @@
 {
   "name": "silk-way-validate",
-  "version": "0.0.32",
+  "version": "0.0.41",
   "description": "validation-module",
   "main": "index.js",
   "scripts": {
