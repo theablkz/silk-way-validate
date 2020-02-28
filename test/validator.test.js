@@ -20,6 +20,9 @@ let testForm = [
     { validation: "cyrillic", errorText: "some error", value: "text", callback: { isValid: false, errorText: "messageErrorNotValid" } },
     { validation: "cyrillic", errorText: "some error", value: "просто текс на кириллице", callback: { isValid: true, errorText: "some error" } },
     { validation: "cyrillic", errorText: "some error", value: "123", callback: { isValid: false, errorText: "messageErrorNotValid" } },
+    { validation: "email", errorText: "some error", value: "myemail.com", callback: { isValid: false, errorText: "messageNotValidateEmail" } },
+    { validation: "email", errorText: "some error", value: "myemail@gmail.com", callback: { isValid: true, errorText: "messageNotValidateEmail" } },
+    { validation: "email", errorText: "some error", value: "email@com", callback: { isValid: false, errorText: "messageNotValidateEmail" } },
     { validation: "anyValidator", errorText: "some error", value: "123", callback: undefined },
 ];
 test("test validation module", () => {

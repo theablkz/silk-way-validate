@@ -8,6 +8,7 @@ const booleanTrue_1 = __importDefault(require("./modules/validators/booleanTrue"
 const cyrillic_1 = __importDefault(require("./modules/validators/cyrillic"));
 const iin_1 = __importDefault(require("./modules/validators/iin"));
 const phone_1 = __importDefault(require("./modules/validators/phone"));
+const email_1 = __importDefault(require("./modules/validators/email"));
 class Validate {
     constructor() {
         this.validations = {
@@ -15,7 +16,8 @@ class Validate {
             booleanTrue: new booleanTrue_1.default(),
             cyrillic: new cyrillic_1.default(),
             iin: new iin_1.default(),
-            phone: new phone_1.default()
+            phone: new phone_1.default(),
+            email: new email_1.default()
         };
     }
     validate(validate, value, errorText) {

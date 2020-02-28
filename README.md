@@ -55,6 +55,8 @@
     ]
     
 ###example with require('silk-way-validate')
+
+
     const Validation = require("silk-way-validate")
     let userData = [
         { id: "name", value: "Валодя", validation: "cyrillic" },
