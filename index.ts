@@ -4,6 +4,11 @@ import Cyrillic from "./modules/validators/cyrillic";
 import Iin from "./modules/validators/iin";
 import Phone from "./modules/validators/phone";
 import Email from './modules/validators/email'
+import Iban from "./modules/validators/iban";
+import IdentityCard from "./modules/validators/identityCard";
+import Passport from "./modules/validators/passport";
+import ResidencePermit from "./modules/validators/residencePermit";
+import PastDate from "./modules/validators/pastDate";
 
 import { IValidate } from './types'
 
@@ -15,7 +20,12 @@ class Validate {
         cyrillic:  new Cyrillic(),
         iin: new Iin(),
         phone: new Phone(),
-        email: new Email()
+        email: new Email(),
+        iban: new Iban(),
+        identityCard: new IdentityCard(),
+        passport: new Passport(),
+        residencePermit: new ResidencePermit(),
+        pastDate: new PastDate()
     }
     validate(validate: string, value: string | number | boolean, errorText: string ): IValidate | undefined{
         let validationsKeys = Object.keys(this.validations)

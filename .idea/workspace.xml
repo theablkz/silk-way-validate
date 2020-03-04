@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829a661a-5b08-489c-b7d1-68536ecef14d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/validators/email.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/email.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/banksBic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/validators/iban.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/validators/identityCard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/validators/passport.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/validators/pastDate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/validators/residencePermit.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/identityCard.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/passport.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/residencePermit.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/regular.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/regular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/regular.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/regular.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/validator.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/validator.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/validator.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +82,8 @@
       <workItem from="1581915985869" duration="15024000" />
       <workItem from="1582011383305" duration="9915000" />
       <workItem from="1582101619615" duration="784000" />
-      <workItem from="1582871416517" duration="1220000" />
+      <workItem from="1582871416517" duration="2741000" />
+      <workItem from="1583310490391" duration="3865000" />
     </task>
     <servers />
   </component>
@@ -85,40 +93,37 @@
       <list>
         <option value="$PROJECT_DIR$/modules/validators/iin.js" />
         <option value="$PROJECT_DIR$/modules/validators/cyrillic.js" />
-        <option value="$PROJECT_DIR$/test/sum.test.js" />
+        <option value="$PROJECT_DIR$/test/cyrillic.test.js" />
+        <option value="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/email.js" />
+        <option value="$PROJECT_DIR$/modules/validators/passport.js" />
         <option value="$PROJECT_DIR$/modules/validators/notNull.js" />
+        <option value="$PROJECT_DIR$/test/notNull.test.js" />
         <option value="$PROJECT_DIR$/modules/validators/booleanTrue.js" />
-        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/test/email.test.js" />
+        <option value="$PROJECT_DIR$/test/phone.test.js" />
+        <option value="$PROJECT_DIR$/test/identityCard.test.js" />
+        <option value="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/test/email.test.js" />
+        <option value="$PROJECT_DIR$/modules/validators/identityCard.js" />
         <option value="$PROJECT_DIR$/modules/regular.js" />
+        <option value="$PROJECT_DIR$/modules/validators/residencePermit.js" />
+        <option value="$PROJECT_DIR$/test/boolean.test.js" />
+        <option value="$PROJECT_DIR$/modules/validators/email.js" />
+        <option value="$PROJECT_DIR$/modules/validators/issueDate.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/test/passport.test.js" />
+        <option value="$PROJECT_DIR$/test/iin.test.js" />
         <option value="$PROJECT_DIR$/modules/validators/phone.js" />
         <option value="$PROJECT_DIR$/types/index.js" />
-        <option value="$PROJECT_DIR$/test/booleanTrue.test.js" />
-        <option value="$PROJECT_DIR$/test/cyrillic.js" />
-        <option value="$PROJECT_DIR$/test/cyrillic.test.js" />
-        <option value="$PROJECT_DIR$/test/booleanTrue.test.js" />
-        <option value="$PROJECT_DIR$/test/notNull.test.js" />
-        <option value="$PROJECT_DIR$/test/boolean.test.js" />
-        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/index 2.js" />
-        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/types/index 2.js" />
-        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/test/validator.test 2.js" />
-        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/regular 2.js" />
-        <option value="$PROJECT_DIR$/test/iin.test.js" />
-        <option value="$PROJECT_DIR$/test/phone.test.js" />
-        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/validators/notNull 2.js" />
-        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/validators/cyrillic 2.js" />
-        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/validators/booleanTrue 2.js" />
-        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/validators/phone 2.js" />
-        <option value="$PROJECT_DIR$/../eurasian-landing-pd/node_modules/silk-way-validate/modules/validators/iin 2.js" />
-        <option value="$PROJECT_DIR$/hello.js" />
-        <option value="$PROJECT_DIR$/modules/validators/email.js" />
-        <option value="$PROJECT_DIR$/test/email.test.js" />
+        <option value="$PROJECT_DIR$/test/residencePermit.test.js" />
+        <option value="$PROJECT_DIR$/modules/validators/iban.js" />
       </list>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1033" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582018537263">
-      <screen x="0" y="23" width="2560" height="1351" />
+    <state x="1033" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583314499100">
+      <screen x="0" y="23" width="2560" height="1347" />
     </state>
+    <state x="1033" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1347@0.23.2560.1347" timestamp="1583314499100" />
     <state x="1033" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1582018537263" />
     <state x="944" y="353" key="refactoring.ChangeSignatureDialog" timestamp="1582874712089">
       <screen x="0" y="23" width="2560" height="1347" />

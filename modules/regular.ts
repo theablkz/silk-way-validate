@@ -8,5 +8,5 @@ export default {
   latinAndNumber: /^[a-zA-Z0-9]+$/,
   passport: /^[a-zA-Z0-9]{8,9}$/,
   identityCard: /^[0-9]{9}$/,
-  residencePremit: /^[a-zA-Z0-9]{9, 14}$/
+  residencePermit: /^[a-zA-Z0-9]{9,14}$/
 };
