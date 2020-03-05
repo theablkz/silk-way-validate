@@ -11,7 +11,12 @@ export default class PastDate {
             return false;
         }
 
-        if (new Date(val) > new Date()) {
+        if(new Date(val.replace( /(\d{2})-(\d{2})-(\d{4})/, "$2/$1/$3"))){
+            this.messageText = messageNotValidateDateIssue
+            return false;
+        }
+
+        if (new Date(val.replace( /(\d{2})-(\d{2})-(\d{4})/, "$2/$1/$3")) > new Date()) {
             this.messageText = messageNotValidateDateIssue
             return false;
         }

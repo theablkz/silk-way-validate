@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829a661a-5b08-489c-b7d1-68536ecef14d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/banksBic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/validators/iban.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/validators/identityCard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/validators/passport.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/validators/pastDate.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/validators/residencePermit.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/identityCard.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/passport.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/residencePermit.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/regular.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/regular.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/regular.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/regular.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/validators/pastDate.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/validators/pastDate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/validators/pastDate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/validators/pastDate.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +71,9 @@
       <workItem from="1582011383305" duration="9915000" />
       <workItem from="1582101619615" duration="784000" />
       <workItem from="1582871416517" duration="2741000" />
-      <workItem from="1583310490391" duration="3865000" />
+      <workItem from="1583310490391" duration="4362000" />
+      <workItem from="1583321820890" duration="180000" />
+      <workItem from="1583384286833" duration="26000" />
     </task>
     <servers />
   </component>
@@ -116,6 +106,11 @@
         <option value="$PROJECT_DIR$/types/index.js" />
         <option value="$PROJECT_DIR$/test/residencePermit.test.js" />
         <option value="$PROJECT_DIR$/modules/validators/iban.js" />
+        <option value="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/residencePermit.js" />
+        <option value="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/iban.js" />
+        <option value="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/identityCard.js" />
+        <option value="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/pastDate.js" />
+        <option value="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/passport.js" />
       </list>
     </option>
   </component>
