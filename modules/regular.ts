@@ -1,3 +1,5 @@
+import { IRegular } from "../types";
+
 export default {
   cyrillic: /^[а-яА-ЯЁё ]+$/,
   latin: /^[a-zA-Z ]+$/,
@@ -9,4 +11,4 @@ export default {
   passport: /^[a-zA-Z0-9]{8,9}$/,
   identityCard: /^[0-9]{9}$/,
   residencePermit: /^[a-zA-Z0-9]{9,14}$/
-};
+} as IRegular;

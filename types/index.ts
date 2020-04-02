@@ -20,3 +20,7 @@ export interface IFormModuleBoolean {
     errorText?: string,
     isValid: boolean
 }
+
+export interface IRegular {
+    [key: string]: RegExp
+}
