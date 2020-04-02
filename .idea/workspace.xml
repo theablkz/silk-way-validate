@@ -2,15 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829a661a-5b08-489c-b7d1-68536ecef14d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/regular.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/regular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/regular.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/regular.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/validators/iban.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/validators/iban.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/validators/iban.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/validators/iban.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/validators/pastDate.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/validators/pastDate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/validators/pastDate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/validators/pastDate.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/modules/validators/iin.js/" />
+    <ignored path="$PROJECT_DIR$/modules/validators/cyrillic.js/" />
+    <ignored path="$PROJECT_DIR$/test/cyrillic.test.js/" />
+    <ignored path="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/email.js/" />
+    <ignored path="$PROJECT_DIR$/modules/validators/passport.js/" />
+    <ignored path="$PROJECT_DIR$/modules/validators/notNull.js/" />
+    <ignored path="$PROJECT_DIR$/test/notNull.test.js/" />
+    <ignored path="$PROJECT_DIR$/modules/validators/booleanTrue.js/" />
+    <ignored path="$PROJECT_DIR$/test/email.test.js/" />
+    <ignored path="$PROJECT_DIR$/test/phone.test.js/" />
+    <ignored path="$PROJECT_DIR$/test/identityCard.test.js/" />
+    <ignored path="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/test/email.test.js/" />
+    <ignored path="$PROJECT_DIR$/modules/validators/identityCard.js/" />
+    <ignored path="$PROJECT_DIR$/modules/regular.js/" />
+    <ignored path="$PROJECT_DIR$/modules/validators/residencePermit.js/" />
+    <ignored path="$PROJECT_DIR$/test/boolean.test.js/" />
+    <ignored path="$PROJECT_DIR$/modules/validators/email.js/" />
+    <ignored path="$PROJECT_DIR$/modules/validators/issueDate.js/" />
+    <ignored path="$PROJECT_DIR$/index.js/" />
+    <ignored path="$PROJECT_DIR$/test/passport.test.js/" />
+    <ignored path="$PROJECT_DIR$/test/iin.test.js/" />
+    <ignored path="$PROJECT_DIR$/modules/validators/phone.js/" />
+    <ignored path="$PROJECT_DIR$/types/index.js/" />
+    <ignored path="$PROJECT_DIR$/test/residencePermit.test.js/" />
+    <ignored path="$PROJECT_DIR$/modules/validators/iban.js/" />
+    <ignored path="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/residencePermit.js/" />
+    <ignored path="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/iban.js/" />
+    <ignored path="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/identityCard.js/" />
+    <ignored path="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/pastDate.js/" />
+    <ignored path="$PROJECT_DIR$/../megazaem/node_modules/silk-way-validate/modules/validators/passport.js/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/types/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/regular.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,8 +99,52 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/types/index.ts" />
+        <option value="$PROJECT_DIR$/modules/regular.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="156" />
+    <option name="width" value="1440" />
+    <option name="height" value="793" />
+  </component>
   <component name="ProjectId" id="1XvA1lWTGcMZ0hSVfQXVbSwqzT2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="silk-way-validate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="silk-way-validate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silk-way-validate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="silk-way-validate" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silk-way-validate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="silk-way-validate" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,10 +152,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -44,6 +166,18 @@
       <recent name="$PROJECT_DIR$/modules/validators" />
       <recent name="$PROJECT_DIR$/modules" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -74,8 +208,37 @@
       <workItem from="1583310490391" duration="4362000" />
       <workItem from="1583321820890" duration="180000" />
       <workItem from="1583384286833" duration="26000" />
+      <workItem from="1585846149913" duration="78000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960423" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32987553" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -124,5 +287,37 @@
       <screen x="0" y="23" width="2560" height="1347" />
     </state>
     <state x="944" y="353" key="refactoring.ChangeSignatureDialog/0.23.2560.1347@0.23.2560.1347" timestamp="1582874712089" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/types/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/regular.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

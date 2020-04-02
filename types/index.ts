@@ -23,4 +23,5 @@ export interface IFormModuleBoolean {
 
 export interface IRegular {
     [key: string]: RegExp
+
 }

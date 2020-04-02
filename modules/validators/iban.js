@@ -15,15 +15,16 @@ class Iban {
             this.messageText = messageErrorNullIban;
             return false;
         }
-        if (val.length != 20) {
+        let iban = val.replace(/\s/g, '');
+        if (iban.length != 20) {
             this.messageText = messageNotValidateIban;
             return false;
         }
-        if (val.slice(0, 2) != "KZ") {
+        if (iban.slice(0, 2) != "KZ") {
             this.messageText = messageNotValidateIban;
             return false;
         }
-        if (!banksBic_json_1.default.find(item => item.code == val.slice(4, 7))) {
+        if (!banksBic_json_1.default.find(item => item.code == iban.slice(4, 7))) {
             this.messageText = messageNotValidateIban;
             return false;
         }

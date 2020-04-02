@@ -9,16 +9,17 @@ export default class Iban {
             this.messageText = messageErrorNullIban
             return false;
         }
-        if (val.length != 20) {
+        let iban: string = val.replace(/\s/g, '')
+        if (iban.length != 20) {
             this.messageText = messageNotValidateIban
             return false;
         }
 
-        if(val.slice(0,2) != "KZ"){
+        if(iban.slice(0,2) != "KZ"){
             this.messageText = messageNotValidateIban
             return false;
         }
-        if(!bankBic.find(item => item.code == val.slice(4,7))){
+        if(!bankBic.find(item => item.code == iban.slice(4,7))){
             this.messageText = messageNotValidateIban
             return false;
         }
