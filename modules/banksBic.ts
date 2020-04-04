@@ -1,4 +1,5 @@
-[
+import {IBankBic} from "../types";
+export default [
   {
     "code": "926",
     "name": "АО 'КАЗКОММЕРЦБАНК'",
@@ -209,4 +210,4 @@
     "name": "АО \"Altyn Bank\" (ДБ АО \"Народный Банк Казахстана\")",
     "bic": "ATYNKZKA"
   }
-]
+] as IBankBic[]

@@ -1,4 +1,4 @@
-import bankBic from '../banksBic.json'
+import bankBic from '../banksBic'
 const messageErrorNullIban = "messageErrorNullIban"
 const messageNotValidateIban = "messageNotValidateIban"
 
@@ -19,7 +19,7 @@ export default class Iban {
             this.messageText = messageNotValidateIban
             return false;
         }
-        if(!bankBic.find(item => item.code == iban.slice(4,7))){
+        if(!bankBic.some(item => item.code == iban.slice(4,7))){
             this.messageText = messageNotValidateIban
             return false;
         }

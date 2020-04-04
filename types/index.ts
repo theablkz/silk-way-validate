@@ -21,6 +21,12 @@ export interface IFormModuleBoolean {
     isValid: boolean
 }
 
+export interface IBankBic {
+    code: string,
+    name: string,
+    bic: string
+}
+
 export interface IRegular {
     [key: string]: RegExp
 
