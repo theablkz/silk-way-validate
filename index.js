@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const notNull_1 = __importDefault(require("./modules/validators/notNull"));
 const booleanTrue_1 = __importDefault(require("./modules/validators/booleanTrue"));
+const isBoolean_1 = __importDefault(require("./modules/validators/isBoolean"));
 const cyrillic_1 = __importDefault(require("./modules/validators/cyrillic"));
 const iin_1 = __importDefault(require("./modules/validators/iin"));
 const phone_1 = __importDefault(require("./modules/validators/phone"));
@@ -19,6 +20,7 @@ class Validate {
         this.validations = {
             notNull: new notNull_1.default(),
             booleanTrue: new booleanTrue_1.default(),
+            isBoolean: new isBoolean_1.default(),
             cyrillic: new cyrillic_1.default(),
             iin: new iin_1.default(),
             phone: new phone_1.default(),
